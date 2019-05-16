@@ -13,3 +13,12 @@ We'll be able to type as much as we like.
 Even 4 lines if we want, or 5, or 6.
 PARAGRAPH
 
+
+puts %q{
+    You can also do it this way
+    I guess is the new correct way to do it
+    The q probably stand fow quote
+    anyway I still preder paragraph, i think is more intuitive.
+
+    It even takes the spacing and everything
+}

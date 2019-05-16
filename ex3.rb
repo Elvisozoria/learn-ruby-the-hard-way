@@ -22,3 +22,9 @@ puts "Is it greater?", 5>-2
 puts "Is it greater or equal?", 5 >=-2
 puts "Is it less or equal?", 5<=-2
 
+#I can also make calcularions inside of  strings
+puts "one plus two is #{1+2}"
+
+#It looks like they changed this on the book, because I really dont remember it using the insidestrings methods, but hey... it looks better
+
+

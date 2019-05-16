@@ -1,17 +1,21 @@
-my_name = 'Zed A. Shaw'
-my_age = 35 # not a lie
-my_height = 74 #inches
-my_weight = 180 #lbs
-my_eyes = 'blue'
-my_teeth = 'white'
-my_hair = 'Brown'
+name = 'Zed A. Shaw'
+age = 35 # not a lie
+height = 74 #inches
+weight = 180 #lbs
+eyes = 'blue'
+teeth = 'white'
+hair = 'Brown'
 
-puts "Let's talk about %s." % my_name
-puts "He's %d inches tall." % my_height
-puts "He;s %d pounds heavy." % my_weight
+puts "Let's talk about %s." % name
+puts "He's %d inches tall." % height
+puts "He;s %d pounds heavy." % weight
 puts "Actualy that's not too heavy."
-puts "He's got %s eyes and %s hair." % [my_eyes,my_hair]
-puts "His teeth are usually %s depending on the cofee." % my_teeth
+puts "He's got %s eyes and %s hair." % [eyes,hair]
+puts "His teeth are usually %s depending on the cofee." % teeth
 
 #this line is tricky, try to get it exactly right
-puts "If I add %d, %d, and %d I get %d." % [my_age, my_height, my_weight, my_age+ my_height + my_weight]
+puts "If I add %d, %d, and %d I get %d." % [age, height, weight, age+ height + weight]
+
+#Alternative, as I was remembered today, I can also use #{variable name} instead of the previous method
+puts "Let's talks about #{name}"
+#yep, it works the same

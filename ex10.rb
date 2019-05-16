@@ -14,3 +14,11 @@ puts persian_cat
 puts backslash_cat
 puts flat_cat
 
+#you could also use triple-quotes """
+
+puts """ 
+test of triplequotes
+second line
+third line
+final line 
+"""
