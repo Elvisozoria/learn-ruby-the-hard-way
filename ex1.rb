@@ -5,4 +5,4 @@
 #puts 'Yay! Printing.'
 #puts "I'd much rather you 'not'."
 #puts 'I "said" do not touch this.'
-puts "I can print what ever I want!"
+puts "I can print whatever I want! Whenever I want"
