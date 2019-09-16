@@ -1,0 +1,1 @@
+#There is no code to write on exercise 27, its just an intro to programing logic
