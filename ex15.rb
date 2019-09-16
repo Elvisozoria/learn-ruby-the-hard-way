@@ -10,7 +10,7 @@ txt.close #Closing the file
 
 puts "I'll also ask you to type the name again:"
 print prompt
-#the user input the name of the file for no reason, or he could also enter the name of other file
+#ask the user to input the name of the file for no reason XD
 file_again = $stdin.gets.chomp
 
 txt_again = open(file_again)
